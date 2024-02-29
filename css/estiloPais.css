@@ -1,0 +1,156 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+body {
+  background-color: #F4EBD0;
+  font-family: sans-serif;
+  text-align: justify;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    font-family: sans-serif;
+    margin-right: 1px;
+}
+
+header {
+  font-size: xx-large;
+  margin: 0;
+}
+
+a {
+  font-size: large;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    width: fit-content;
+}
+p {
+  text-align: justify;
+}
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    padding: 0;
+    font-weight: bold;
+}
+
+nav ul a {
+    text-decoration: none;
+
+}
+
+a.active {
+    color: red;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    background-size: 300px 180px;
+}
+
+p, .papu {
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+  margin: 0;
+}
+
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:darkorchid;
+}
+
+#berlin{
+  color:black;
+}
+
+#bogota{
+  color:purple;
+}
+
+#madrid{
+  color:orangered;
+}
+
+#moscu{
+  color:FireBrick;
+}
+
+#roma{
+  color:forestgreen;
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+}
+
+.banderaAle {
+  background-image: url("../img/berlin.jpg");
+}
+
+.banderaCol {
+  background-image: url("../img/bogota.jpg");
+}
+
+.banderaEsp {
+  background-image: url("../img/madrid.jpg");
+}
+
+.banderaRus {
+  background-image: url("../img/moscu.jpg");
+}
+
+.banderaIta {
+  background-image: url("../img/roma.jpg");
+}
+
+header {
+font-family: "Tilt Prism", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
